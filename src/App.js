@@ -3,11 +3,10 @@ import React from 'react';
 /**Importação do CSS */
 import './App.css'
 
-/**Importando Imagens */
-import profile from './assets/profile.jpg'
+import TechList from './components/TechList'
 
 function App() {
-  return <img width="500" src={profile} />
+  return <TechList  />
 }
 
 export default App;
